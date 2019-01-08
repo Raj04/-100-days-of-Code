@@ -1,0 +1,42 @@
+
+#Javascript selection of id and innerhtml,textContent
+
+#copied from console
+var diff=document.querySelector("p em");
+undefined
+diff
+<em>​<strong>​Raj​</strong>​</em>​
+diff.innerHTML;
+"<strong>Raj</strong>"
+diff.textContent
+"Raj"
+var idSelection=document.getElementById("List");
+undefined
+idSelection.textContent;
+"
+			Raj yadav
+			ECE 2 Roll-79
+			Academy of Technology
+			LinkedIn Profile
+		"
+idSelection.innerHTML;
+"
+			<li class="name">Raj yadav</li>
+			<li>ECE 2 Roll-79</li>
+			<li>Academy of Technology</li>
+			<li><a href="https://www.linkedin.com/in/raj-yadav-9a5043112/" target="_blank">LinkedIn Profile</a></li>
+		"
+idSelection
+<ul id=​"List">​…​</ul>​<li class=​"name">​Raj yadav​</li>​<li>​ECE 2 Roll-79​</li>​<li>​Academy of Technology​</li>​<li>​…​</li>​</ul>​
+diff
+<em>​<strong>​Raj​</strong>​</em>​
+diff.textContent="Aryan";
+"Aryan"
+diff.textContent="Aryan";
+"Aryan"
+diff.innerHTML="<strong>Aryan</strong>";
+"<strong>Aryan</strong>"
+document.querySelector("#List li");
+<li class=​"name">​Raj yadav​</li>​
+document.querySelector("#List li").getAttribute("class");
+"name"
