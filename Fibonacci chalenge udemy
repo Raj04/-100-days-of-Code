@@ -1,0 +1,14 @@
+
+function fibonacciGenerator (n) {
+    var fiboArray=[];
+    var a=0;
+    var b=1;
+    var c=a+b;
+    while(n--){
+        fiboArray.push(a);
+        a=b;
+        b=c;
+        c=a+b;
+    }
+    return fiboArray;
+}
