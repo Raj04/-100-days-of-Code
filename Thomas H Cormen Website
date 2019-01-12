@@ -1,0 +1,35 @@
+//still working on this website to make more beautiful
+<body>
+  <picture><img src="https://home.dartmouth.edu/faculty-directory/sites/dartmouth.edu.faculty-directory/files/styles/profile_image/public/237_original.jpg?itok=8qMR53nT" width=300 height=300 align=left>
+  </picture>
+  <span >
+  <h3>Thomas H.Cormen</br>
+  Professor</br>
+  Department of Computer Science</br>
+  </h3>
+  <p>Ph.D, MIT, 1992.</p>
+  <h4>Research Interests</h4>
+  <p>Algorithm engineering, parallel computing,            speeding up computations with high latency.</p>
+ 
+  <ul>
+    <li><a href="www.mitpapers">Papers</a></span></li>
+    <li><a href="www.mitpapers">FG</a></li>
+    <li><a href="www.mit.os">Other Software</a></li>
+    <li><a href="www.mit.vita">Vita</a></li>
+  </ul>
+</br>
+<hr>
+  <p>Khan Academy now carries <a href="">algorithms tutorials</a> for which <a href="">Devin Balkcom</a> and I produced content</p>
+<hr>
+ <p> My newest book. Algorithms Unlocked is out! The Amazon site for the book is <a href="www.amazon.com">here</a>.</p> 
+<hr>
+  <p>Are you looking for solutions to exercises and problems in Intro to Algo.</p>
+  <p>If you request solutions from me, I will not respond.</p>
+<hr>
+</span>
+</body>
+
+li{
+  list-style-type:square;
+}
+   document.getElementsByTagName("h1")[0].style.fontSize = "80px";
