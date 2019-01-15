@@ -1,0 +1,54 @@
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td>
+          <picture><img src="https://home.dartmouth.edu/faculty-directory/sites/dartmouth.edu.faculty-directory/files/styles/profile_image/public/237_original.jpg?itok=8qMR53nT" width=300 height=300 align=left>
+  </picture>
+      </td>
+      <td>
+  <h3>Thomas H.Cormen</br>
+  Professor</br>
+  Department of Computer Science</br>
+  </h3>
+  <p>Ph.D, MIT, 1992.</p>
+  <h4>Research Interests</h4>
+  <p>Algorithm engineering, parallel computing,            speeding up computations with high latency.</p>
+ 
+  <ul>
+    <li><a href="www.mitpapers">Papers</a></span></li>
+    <li><a href="www.mitpapers">FG</a></li>
+    <li><a href="www.mit.os">Other Software</a></li>
+    <li><a href="www.mit.vita">Vita</a></li>
+  </ul>
+</br>
+</td>
+<hr>
+</table>
+  <p>Khan Academy now carries <a href="">algorithms tutorials</a> for which <a href="">Devin Balkcom</a> and I produced content</p>
+<hr>
+ <p> My newest book. Algorithms Unlocked is out! The Amazon site for the book is <a href="www.amazon.com">here</a>.</p> 
+<hr>
+  <p>Are you looking for solutions to exercises and problems in Intro to Algo.</p>
+  <p>If you request solutions from me, I will not respond.</p>
+<hr>
+<table cellspacing="5">
+  <tr><td>I would love to hear from you :)</td></tr>
+       <form action="" method="post">
+         <tr><td><label>Your thoughts if any </label></td>
+           <td><input type="text" class="io" width=></td></tr>
+         <tr><td><input type="submit"></td></tr>
+        </form>
+</table>
+</body>
+
+
+
+#css code
+li{
+  list-style-type:square;
+}
+.io{
+  width:200px;
+  height:50px;
+}   
+
