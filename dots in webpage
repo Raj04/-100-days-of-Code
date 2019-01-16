@@ -1,0 +1,22 @@
+#css  styling
+<body>
+  <h1>H1 tag</h1>
+  <p>This is a paragraph tag</p>  
+  <hr>
+</body>
+
+css code
+
+h1{
+  color:skyblue;
+  font:bold 30px verdana;
+  width:30%;
+  height:30%;
+}
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-top-color:skyblue;
+  width:200px;
+  border-width:10px;
+}
