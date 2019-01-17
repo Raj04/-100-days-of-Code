@@ -1,0 +1,78 @@
+#box model
+
+.top-container{
+	background-color:skyblue;
+	margin-top:10px;
+	margin-left:10px;
+	width:190px;
+	padding:20px;
+	border:2px solid;
+	display:inline;
+}
+.middle-container{
+	height:200px;
+	width:200px;
+	margin-left:200px;
+	border:2px solid;
+	background-color:red;
+	display:inline;
+}
+.bottom-container{
+	
+	display:inline;
+	margin-left:400px;
+	border:2px solid;
+	height:200px;
+	width:200px;
+	background-color:blue;
+}
+
+.top-container{
+	background-color:skyblue;
+	margin-top:10px;
+	margin-left:10px;
+	width:190px;
+	padding:20px;
+	border:2px solid;
+	display:inline;
+}
+.middle-container{
+	height:200px;
+	width:200px;
+	margin-left:200px;
+	border:2px solid;
+	background-color:red;
+	display:inline;
+}
+.bottom-container{
+	
+	display:inline;
+	margin-left:400px;
+	border:2px solid;
+	height:200px;
+	width:200px;
+	background-color:blue;
+}
+
+
+<html>
+	<head>
+		<title>Raj Yadav</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="icon" href="css/lfc.ico">
+	</head>
+	<body>
+		<div class="top-container">
+			<h1>I'm Raj Yadav</h1>
+			<p>a web developer</p>
+			<img src="css/cloud.jpg" width="200px" height="200px">
+			<img src="css/mountain.jpg"  width="200px" height="200px">
+		</div>
+		
+		<div class="middle-container">
+		</div>
+		<div class="bottom-container">
+		
+		</div>
+	</body>
+</html>
