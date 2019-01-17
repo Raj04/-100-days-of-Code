@@ -1,0 +1,22 @@
+<h1>The header h1</h1>
+<p>Hey what's up</p>
+<p>Second Line</p>
+<img src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0001/72/thumb_71280_default_news_size_5.jpeg" >
+
+h1{
+  display:inline-block;
+/*   visibility:hidden; */
+}
+p{
+  width:200px;
+  background-color:red;
+  font-family:verdana;
+  display:inline;
+}
+img{
+  top:30px;
+  left:30px;
+  width:800px;
+  height:500px;
+  position:relative;
+}
