@@ -1,0 +1,33 @@
+
+	-------FOLLOW TRAVERSY MEDIA VIDEO ON MONGODB------
+1. db--> returns the current database you are in
+2. show dbs-->shows the databases that are there
+3. use mycustomers(database name)-->switched to mycustomers
+4. show collections--> return the database
+5. db.mycustomers.insertOne(
+			     {
+				name: "raj",id:1
+			     });
+6. db.mycustomers.find()
+	--> gives all the key-value that is stored
+7. db.mycustomers.insertMany([{key:value},{key:value},..]);
+8. db.mycustomers.find().pretty();
+	-->for better view
+9. db.mycustomers.update({name:"to be modified"},{name:"modified value"})
+	-->it first find the name key and modify it with the latter one
+10.db.mycustomers.update({name:""},{$set {key:value})
+	--->it finds the name attribute and keep a new key-value pair in 		the object (it has to match with a value)
+11.db.mycustomers.update({key:value},{},{upsert:true})
+	-->it first searches for the particular key if not found it will 		insert into the database.
+12.db.mycustomers.update({key:value},{$rename:{"old key_name":"new 			key_name"}});
+	-->use to rename the key value
+13.db.mycustomers.remove({key:value});
+	-->use to remove the key-value pair where we pass the key to be 	removed
+14.db.mycustomers.find({id:{$gt:0}});
+	-->gives you the values where id>0
+	-->$lt is another function
+15. db.mycustomers.find().(limit(4)).sort({key:1/-1});
+	-->1 for ascending order
+	-->-1 for descending order
+16. db.mycustomers.count()
+	-->returns total no of objects present 
