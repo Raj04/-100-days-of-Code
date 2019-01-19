@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-lg-2 col-md-3" style="background-color:yellow; border:1px solid">
+        Col
+    </div>
+    <div class="col-lg-2 col-md-3" style="background-color:yellow; border:1px solid">
+        Col
+    </div>
+    <div class="col-lg-2 col-md-3" style="background-color:yellow; border:1px solid">
+        Col
+    </div>
+    <div class="col-lg-2 col-md-3" style="background-color:yellow; border:1px solid">
+        Col
+    </div>
+    <div class="col-lg-2 col-md-3" style="background-color:yellow; border:1px solid">
+        Col
+    </div>
+    <div class="col-lg-2 col-md-3" style="background-color:yellow; border:1px solid">
+        Col
+    </div>
+</div>
