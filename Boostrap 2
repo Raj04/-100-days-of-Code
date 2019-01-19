@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col" style="background-color:red; border:1px solid">
+        Col<!---all four are equally divided in the screen in 100% screen view, there is a chance of not a great view-->
+    </div>
+    <div class="col" style="background-color:red; border:1px solid">
+        Col
+    </div>
+    <div class="col" style="background-color:red; border:1px solid">
+        Col
+    </div>
+    <div class="col" style="background-color:red; border:1px solid">
+        Col
+    </div>
+</div>
+
+<!--down here we are giving 4 units to each column so it remains same in every views -->
+<div class="row">
+    <div class="col-4" style="background-color:green; border:1px solid">
+        Col
+    </div>
+    <div class="col-4" style="background-color:green; border:1px solid">
+        Col
+    </div>
+    <div class="col-4" style="background-color:green; border:1px solid">
+        Col
+    </div>
+    <div class="col-4" style="background-color:green; border:1px solid">
+        Col
+    </div>
+</div>
+
+<!-- here we are specifying for every view(pc,mobile,tab) how much we need to show in one row -->
+<div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid" >Col</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid">Col</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid" >Col</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid" >Col</div>
+</div>    
